@@ -10,10 +10,12 @@ h1, h2{
     color:rgb(55, 0 ,252)
 }
 .hospedagens{
-    background: rgb(12, 22, 100);
+    background: rgb(6, 21, 22);
+    color: blanchedalmond;
 }
 
-.outros{
+#outrasPassagens{
     font-size: medium;
     text-shadow: 4px 4px 3px #88f;
+    color: darkgreen;
 }
