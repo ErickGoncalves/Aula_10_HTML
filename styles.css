@@ -1,21 +1,49 @@
 
-h1, h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:cadetblue;
-    font-size: 35px;
+
+
+header nav {
+    display: flex;
+    /* adicionamos o 'display: flex' para facilitar a manipulação 
+    das informações do arquivo index.html */
+    flex-direction: row-reverse;
+    /* felx-direction: row-reverse' inverte a ordem dos itens da tags em questão */
+    justify-content: space-around;
+    /* justify-content: space-between' deixa o espaço entre os itens igual */
+    align-items: center;
+    /* o align-items' alinha os itens de acordo com o eixo(imaginário) central da tag. */
     
 }
-
-.passagens{
-    color:rgb(55, 0 ,252)
+header nav ul{
+    display: flex;
+    border-radius: 3rem;
+    background-color: rgb(27, 131, 235);
+    /* background-color' define a cor de fundo da tag selecionada */
+    color:white ;
+    /* color' define a cor do texto da tag */
+    height: 1.2rem;
+    /* height' Define a expressura da tarja que abrange a tag */
+    list-style:disc;
+    /* list-style' define o estilo dos itens desta tag, neste caso, retira os pontos */
+    gap: 2rem;
+    /* gap' define o espaçamento entre os itens desta tag */
+    padding: 10px;
 }
-.hospedagens{
-    background: rgb(6, 21, 22);
-    color: blanchedalmond;
+
+main{
+    padding: 50px;
+}
+main h1 {
+    display: flex;
+    justify-content:center ;
+    border-radius: 3rem;
+    background-color: rgb(27, 131, 235);
+    color:white ;
+
 }
 
-#outrasPassagens{
-    font-size: medium;
-    text-shadow: 4px 4px 3px #88f;
-    color: darkgreen;
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 50px
 }
